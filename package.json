@@ -1,0 +1,19 @@
+{
+  "name": "mega_hack_women",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamilabandeira/mega_hack_women.git"
+  },
+  "author": "Kamila Bandeira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamilabandeira/mega_hack_women/issues"
+  },
+  "homepage": "https://github.com/kamilabandeira/mega_hack_women#readme"
+}

@@ -5,7 +5,7 @@ const router = express.Router()
 //Criar conta
 router.get("/", (req, res) => {
     
-    res.send("ok")
+    res.render("colaborador/index")
                 
 })
 

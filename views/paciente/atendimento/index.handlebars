@@ -23,13 +23,13 @@
 
             <br>
 
-            <a href="#" class="btn btn-primary">Consultar</a>
+            <button class="btn btn-primary" onclick="mostraAgendamento()" >Consultar</button>
         </div>
     </div>
 
     <br>
 
-    <div class="card">
+    <div class="card" id="agendamento" hidden="true">
         <div class="card-body">
             <h5 class="card-title">Agendamento</h5>
             <p class="card-text">Escolha o melhor horário para o seu Teleatendimento.
@@ -103,7 +103,7 @@
             <br>
 
             <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#agendamentoSucesso">
-                <button class="btn btn-primary">Agendar</button>
+                <button onclick="escondeAgendamento()" class="btn btn-primary">Agendar</button>
             </div>
         </div>
     </div>
@@ -143,3 +143,13 @@
         </div>
     </div>
 </div>
+
+<script>
+    function mostraAgendamento() {
+        document.getElementById("agendamento").hidden = false
+    }
+
+    function escondeAgendamento() {
+        document.getElementById("agendamento").hidden = true
+    }
+</script>

@@ -11,9 +11,9 @@
                 <label for="exampleFormControlSelect1">Selecione a especialidade desejada: </label>
                 <select class="form-control" id="exampleFormControlSelect1">
                     <option>Selecionar</option>
-                    <option>Neurologista</option>
-                    <option>Otorrinolaringologista</option>
-                    <option>Fonoaudiologia</option>
+                    <option>Neurologia</option>
+                    <option>Otorrinolaringologia</option>
+                    <option>Fonoaudiólogo</option>
                     <option>Psicologo</option>
                     <option>Psiquiatra</option>
                     <option>Terapeuta Ocupacional</option>
@@ -51,7 +51,8 @@
                     <tbody>
                         <tr>
                             <th scope="row">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option1">
                             </th>
 
                             <td style="width: 50%;">Segunda (07/09/2020)</td>
@@ -60,7 +61,8 @@
                         </tr>
                         <tr>
                             <th scope="row">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option1">
                             </th>
                             <td>Terça (08/09/2020)</td>
                             <td>14:30</td>
@@ -68,7 +70,8 @@
                         </tr>
                         <tr>
                             <th scope="row">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option1">
                             </th>
                             <td>Quarta (09/09/2020)</td>
                             <td>14:30</td>
@@ -76,7 +79,8 @@
                         </tr>
                         <tr>
                             <th scope="row">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option1">
                             </th>
                             <td>Quinta (10/09/2020)</td>
                             <td>14:30</td>
@@ -84,7 +88,8 @@
                         </tr>
                         <tr>
                             <th scope="row">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option1">
                             </th>
                             <td>Sexta (11/09/2020)</td>
                             <td>14:30</td>
@@ -97,8 +102,44 @@
             <br>
             <br>
 
-            <a href="#" class="btn btn-primary">Agendar</a>
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#agendamentoSucesso">
+                <button class="btn btn-primary">Agendar</button>
+            </div>
         </div>
     </div>
 
+</div>
+
+<div class="portfolio-modal modal fade" id="agendamentoSucesso" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"><i class="fas fa-times"></i></span>
+            </button>
+            <div class="modal-body text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <!-- Portfolio Modal - Title-->
+                            <h2 class="portfolio-modal-title text-uppercase mb-0" style="color: #00995D;">Agendado com sucesso</h2>
+                            <!-- Icon Divider-->
+                            <div class="divider-custom divider-light" style="color: #00995D;">
+                                <div class="divider-custom-line" style="background-color: #00995D;"></div>
+                                <div class="divider-custom-icon" style="color: #00995D;"><i class="fas fa-star"
+                                        style="color: #00995D;"></i></div>
+                                <div class="divider-custom-line" style="background-color: #00995D;"></div>
+                            </div>
+                            <!-- Portfolio Modal - Image-->
+                            <img class="img-fluid rounded mb-5" src="/img/emergecia1.jpg" alt="" />
+                            <!-- Portfolio Modal - Text-->
+                            <br>
+                            <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                    class="fas fa-times fa-fw"></i>Close Window</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

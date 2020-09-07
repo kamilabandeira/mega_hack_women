@@ -1,6 +1,6 @@
 {{>_navbar_outras_paginas}}
- 
-<div class="container" style="width: 57%;">
+
+<div class="container">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">Acompanhamento de pacientes</h5>
@@ -11,7 +11,7 @@
                 <label for="exampleFormControlSelect1">Selecione o paciente que desejada acompanhar: </label>
                 <select class="form-control" id="exampleFormControlSelect1">
                     <option>Selecione o paciente</option>
-                    <option>Antonio Carlos</option>                    
+                    <option>Antonio Carlos</option>
                 </select>
             </div>
 
@@ -20,13 +20,13 @@
             <button class="btn btn-primary" onclick="mostraAcompanhamento()">Consultar</button>
         </div>
     </div>
-</div>
+    {{!-- </div> --}}
 
-<br>
+    <br>
 
-<div class="container" id="acompanhamento" hidden="true">
-    <div class="card w-75 mx-auto">
-        <div class="card-body">
+    {{!-- <div class="container" id="acompanhamento" hidden="true"> --}}
+    <div class="card">
+        <div class="card-body" id="acompanhamento" hidden="true">
             <h5 class="card-title">Antônio Carlos</h5>
             <p class="card-text">Analise do relatório quinzenal do paciente. </p>
 
@@ -44,11 +44,11 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="form-check form-check-inline">        
+                        <div class="form-check form-check-inline">
                             <label class="form-check-label" for="inlineRadio3">
                                 <img src="/img/barra_rostinhos/3.png" style="width: 30%;">
                             </label>
-                        </div>                      
+                        </div>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                             <label class="form-check-label" for="inlineRadio1">
                                 <img src="/img/icone/certo.png" style="width: 30%;">
                             </label>
-                        </div>                
+                        </div>
                     </div>
                 </div>
             </div>

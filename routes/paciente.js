@@ -15,6 +15,18 @@ router.get("/formulario", (req, res) => {
                 
 })
 
+router.get("/evolucao", (req, res) => {
+    
+    res.render("paciente/evolucao/index")
+                
+})
+
+// router.get("/atendimento", (req, res) => {
+    
+//     res.render("paciente/atendimento/index")
+                
+// })
+
 
 module.exports = router
  

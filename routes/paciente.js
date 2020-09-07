@@ -21,11 +21,11 @@ router.get("/evolucao", (req, res) => {
                 
 })
 
-// router.get("/atendimento", (req, res) => {
+router.get("/atendimento", (req, res) => {
     
-//     res.render("paciente/atendimento/index")
+    res.render("paciente/atendimento/index")
                 
-// })
+})
 
 
 module.exports = router

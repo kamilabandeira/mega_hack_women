@@ -1,1 +1,266 @@
 {{>_navbar_outras_paginas}}
+ 
+<div class="container" style="width: 57%;">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Acompanhamento de pacientes</h5>
+            <p class="card-text">Acompanhamento para analise de pacientes.
+            </p>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Selecione o paciente que desejada acompanhar: </label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Selecione o paciente</option>
+                    <option>Antonio Carlos</option>                    
+                </select>
+            </div>
+
+            <br>
+
+            <button class="btn btn-primary" onclick="mostraAcompanhamento()">Consultar</button>
+        </div>
+    </div>
+</div>
+
+<br>
+
+<div class="container" id="acompanhamento" hidden="true">
+    <div class="card w-75 mx-auto">
+        <div class="card-body">
+            <h5 class="card-title">Antônio Carlos</h5>
+            <p class="card-text">Analise do relatório quinzenal do paciente. </p>
+
+            <div class="container mx-auto">
+                <img class="card-img-top mx-auto" src="/img/acelerador_rostinhos/form2.png" style="width: 70%;">
+            </div>
+
+            <br>
+
+            <div class="container">
+                <b>1- Qual imagem representa melhor como você se sentiu durante a última quinzena?</b>
+
+                <br>
+                <br>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="form-check form-check-inline">        
+                            <label class="form-check-label" for="inlineRadio3">
+                                <img src="/img/barra_rostinhos/3.png" style="width: 30%;">
+                            </label>
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="container">
+                <b>2- Durante a última quinzena, qual imagem representa melhor seu relacionamento interpessoal?</b>
+
+                <br>
+                <br>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label" for="inlineRadio3">
+                                <img src="/img/barra_rostinhos/4.png" style="width: 30%;">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="container">
+                <b>3- Durante a última quinzena, você tentou algo novo?</b>
+
+                <br>
+                <br>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label" for="inlineRadio1">
+                                <img src="/img/icone/certo.png" style="width: 30%;">
+                            </label>
+                        </div>                
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="container">
+                <b>4- Você está tomando algum remédio controlado?</b>
+
+                <br>
+                <br>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label" for="inlineRadio2">
+                                <img src="/img/icone/errado.png" style="width: 30%;">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="container">
+                <b>5- Durante a última quinzena eu senti que precisava de ajuda, mas não sabia como pedir?</b>
+
+                <br>
+                <br>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label" for="inlineRadio1">
+                                <img src="/img/icone/certo.png" style="width: 30%;">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="container">
+                <b>6- Você tem se sentido ansioso ou deprimido?</b>
+
+                <br>
+                <br>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label" for="inlineRadio2">
+                                <img src="/img/icone/errado.png" style="width: 30%;">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="container">
+                <b>7- Durante a última quinzena você tem conversado com sua familia ou amigos sobre como você está se
+                    sentindo?</b>
+
+                <br>
+                <br>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label" for="inlineRadio1">
+                                <img src="/img/icone/certo.png" style="width: 30%;">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="container">
+                <b>8- Qual escala você acha que representa seu bem estar psicológico durante os últimos quinze dias?</b>
+
+                <br>
+                <br>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label" for="inlineRadio3">
+                                <img src="/img/barra_rostinhos/3.png" style="width: 30%;">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="container">
+                <b>9- Você sente que as pessoas com que você convive têm dificuldades de te entender?</b>
+
+                <br>
+                <br>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label" for="inlineRadio2">
+                                <img src="/img/icone/errado.png" style="width: 30%;">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="container">
+                <b>10- Você acha que tem evoluído em termos de convivência interpessoal em relação á ultima vez que
+                    respondeu ao questionário quinzenal?</b>
+
+                <br>
+                <br>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label" for="inlineRadio1">
+                                <img src="/img/icone/certo.png" style="width: 30%;">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <a href="/colaborador" class="btn btn-primary">Fechar</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    function mostraAcompanhamento() {
+        document.getElementById("acompanhamento").hidden = false
+    }
+
+    function escondeAcompanhamento() {
+        document.getElementById("acompanhamento").hidden = true
+    }
+</script>
